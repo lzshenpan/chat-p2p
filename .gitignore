@@ -1,0 +1,62 @@
+# 依赖
+node_modules/
+*/node_modules/
+
+# 构建输出
+dist/
+build/
+*/dist/
+*/build/
+
+# 环境变量
+.env
+.env.local
+.env.production
+.env.development
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 覆盖率
+coverage/
+.nyc_output/
+
+# 缓存
+.cache/
+.parcel-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSL 证书
+ssl/
+*.pem
+*.key
+*.crt
+
+# 临时文件
+tmp/
+temp/
